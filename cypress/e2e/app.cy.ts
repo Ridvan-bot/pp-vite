@@ -1,3 +1,5 @@
+import { describe, it } from 'vitest';
+import { cy } from 'cypress';
 describe('App', () => {
   it('visar att Sass fungerar', () => {
     cy.visit('/');
